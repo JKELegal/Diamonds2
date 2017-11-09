@@ -5,7 +5,7 @@ ui <- fluidPage
 # user interface
 
 ui <- fluidPage(
-  titlePanel("Diamonds Data"),
+  titlePanel("Diamonds Data", windowTitle = "Diamonds"),
   sidebarLayout(
     sidebarPanel(
       helpText("This app is to visualize diamonds dataset."),
